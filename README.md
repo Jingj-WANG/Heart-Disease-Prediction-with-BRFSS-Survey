@@ -1,26 +1,15 @@
-Statistical Computing and Computation - Final Project
------------
+Project: Heart Disease Prediction with BRFSS Survey
 
-Completed final project is due by 5:00 pm on Saturday, April 30th.
+## Background
+The most horrible Cardiovascular Disease (CVD), heart disease, is now one of the leading causes of death around the world. There are many risk factors for heart disease, such as high blood pressure, high cholesterol, smoking, high BMI, lack of exercise, etc. Among those, the first three are the key risk factors; and about half of all Americans have at least one of them according to the Centers for Disease Control and Prevention (CDC).
 
-## Guidelines
+This project takes the dataset from CDC to build machine learning models which could predict whether a patient is likely to have heart disease. The data are taken from the Behavioral Risk Factor Surveillance System (BRFSS) which annually organizes surveys regarding of basic health status of U.S. residents. A direct quote from the CDC is: "Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world.”
 
-1. You may form a team of between 1 - 6 students to complete the project.
+## Operation
+Here our team took the newest data, which are from 2020, to analyze and learn from. Specifically, we constructed five classification machine learning models including Random Forest, Gradient Boosting, Bagging, Ada Boosting and Decision Tree techniques. Then we tuned hyperparameters, selected best model, evaluated its performance and conducted feature importance analysis. The findings of the project could not only serve as a method to predict the existence of a heart disease, but also educate doctors, nurses, researchers and potential patients to focus more on certain factors and take precautions in advance.
 
-1. The primary goal of the project is to do something interesting using something related to the course. This is purposefully open ended to give you the opportunity to work on something you are interested in and to produce work that you could potentially show to a prospective employer or use as part of your graduation portfolio.
-   
-   Some examples of possible topics,
-     - Implementing an interface to a Web API (e.g. Spotify, GitHub, etc.)
-     - Collecting / assembling a data set via webscraping or similar approach
-     - Analyzing a data set 
-     - Implementing a specific algorithm from a paper
- 
-1. The primary way in which you will be evaluate will be based on the evidence of effort in your project and the quality of the write up. What this means is that a "failed" project (e.g. an analysis without a significant result) that is well documented will receive a better grade than a less ambitious "successful" project with a worse write up. 
-  
-    The expectation is that most projects should be roughly 5-10 pages - including text, code, figures, and other output. This is meant only as a very rough guide to calibrate your work (there are no penalties for the report being too short or too long).
+### Data
+Data Resource: https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 
-1. We have included a very bare template, `final_project.ipynb` which only includes basic section headings. Feel free to add, adjust, remove these as needed to fit your specific project, they are included only as general guidelines for structuring your write up.
-
-1. You may include all of your code in the IPython Notebook or in one or more python script files - make sure your write up makes it clear how the code is meant to be run and how your results can reproduced. Additional data files and other supplementary materials are also fine as long as they are neatly organized and explicitly discussed in the write up.
-
-1. As with all of the other homework assignments in the class, everyone is expected to contribute equally to the final product - there will be a peer evaluation distributed after the assignment is completed to assess this. Failure to sufficiently contribute may result in a penalty to your individual grade.
+## Team members
+Jiaao Shen, Linhui Fu, Jingjing Wang, Congjun Huang
