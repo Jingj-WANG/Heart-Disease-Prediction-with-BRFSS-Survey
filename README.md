@@ -28,7 +28,7 @@ For the insights, aging problem, self-evaluation, difficulty walking or climbing
 
 
 ### Project members
-Jiaao Shen
-Linhui Fu
-Jingjing Wang
+Jiaao Shen,
+Linhui Fu,
+Jingjing Wang,
 Congjun Huang
