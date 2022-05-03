@@ -20,7 +20,7 @@ To sum up, Random Forest is chosen as the best among all of the classifiers, com
 
 ![image](https://user-images.githubusercontent.com/87988673/166568147-08fd5187-377a-4a75-9ab8-28d3eb5f8e57.png)
 
-The drawback of the project is that the false negative rate (0.199) is not as low as what we expected. Relatively inaccurate results like this may give patients a false sense of security, leading them to become lax about dieting and exercising. To deal with this, some future work needs to be done. For example, the adjustments could be: 1. use oversampling instead of undersampling to get more datapoints, which might benefit model training, tuning, evaluating and predicting. 2. perform analysis first to narrow down the number of variables (e.g. PCA), and select more proper features with heart disease to optimize the models.
+The drawback of the project is that the false negative rate (0.199) is not as low as what we expected. Relatively inaccurate results like this may give patients a false sense of security, leading them to become lax about dieting and exercising. To deal with this, some future work needs to be done. For example, the adjustments could be: 1) use oversampling instead of undersampling to get more datapoints, which might benefit model training, tuning, evaluating and predicting. 2) perform analysis first to narrow down the number of variables (e.g. PCA), and select more proper features with heart disease to optimize the models.
 
 ![image](https://user-images.githubusercontent.com/87988673/166568209-90403e4b-2fec-48af-8e65-9ecd50ecd079.png)
 
